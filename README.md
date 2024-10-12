@@ -19,5 +19,5 @@ The Libft project was my first project in 42 school, the primary objective of th
 **Tests**
 - The project includes a systematic approach to testing the functionality and efficiency of implemented functions, ensuring they operate as expected.
 
-<h3>Conclusion 🙏</h3>
+<h3>Conclusion ✅</h3>
 The Libft project culminates in a robust, custom C library that reflects the functionality of the standard C library. This achievement represents more than just completing a task; means a solid understanding of fundamental programming concepts and the ability to write efficient, maintainable code. We develop a solid foundation for future projects. Libft not only prepares students for future challenges, but also instills a sense of confidence and accomplishment by proving their ability to tackle complex programming tasks right from the start.
