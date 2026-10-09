@@ -1,23 +1,85 @@
-# Libft-42 📚
-<h3>What is Libft ⁉️</h3>
-The Libft project was my first project in 42 school, the primary objective of this project is to reinforce students' understanding of C programming by having them recreate a library of standard C functions from scratch. This library, aptly named "libft," is a custom implementation of several commonly used functions found in the C standard library, such as those for string manipulation, memory allocation, and linked list management.
+# Libft
 
-<h3>Key points 🔑</h3>
+My implementation of Libft, the first project of the 42 curriculum.
 
-**Makefile**
-- The Makefile automates the library compilation process, facilitating the creation and cleaning of compiled files through specific commands.
+The goal is to build a personal C library by recreating common functions from the standard C library and implementing additional utilities that can be reused in future projects.
 
-**Memory Allocation**
-- Functions for memory allocation and management are implemented to optimize resource usage, ensuring efficient and safe memory handling.
+## About
 
-**String Manipulation**
-- A set of functions is developed to facilitate string manipulation, including operations such as length calculation, duplication, copying, concatenation and character search.
+Libft covers several areas of C programming:
 
-**Linked Lists**
-- Specific functions are created for creating and manipulating linked lists, allowing dynamic insertion, removal and iteration over elements.
+- Character validation and conversion
+- String manipulation
+- Memory operations
+- String and number conversion
+- File descriptor output
+- Dynamic memory allocation
+- Linked lists
 
-**Tests**
-- The project includes a systematic approach to testing the functionality and efficiency of implemented functions, ensuring they operate as expected.
+The bonus part adds utilities for creating, traversing, modifying, and deleting linked lists.
 
-<h3>Conclusion ✅</h3>
-The Libft project culminates in a robust, custom C library that reflects the functionality of the standard C library. This achievement represents more than just completing a task; means a solid understanding of fundamental programming concepts and the ability to write efficient, maintainable code. We develop a solid foundation for future projects. Libft not only prepares students for future challenges, but also instills a sense of confidence and accomplishment by proving their ability to tackle complex programming tasks right from the start.
+## Getting Started
+
+### Requirements
+
+- GCC or Clang
+- Make
+- A Unix-like environment
+
+Clone the repository:
+
+```bash
+git clone git@github.com:Daviddm03/Libft-42.git
+cd Libft-42
+```
+
+Compile the mandatory library:
+
+```bash
+make
+```
+
+This creates:
+
+```text
+libft.a
+```
+
+To include the bonus linked-list functions:
+
+```bash
+make bonus
+```
+
+Other available commands:
+
+```bash
+make clean
+make fclean
+make re
+```
+
+## Using the Library
+
+Include the header in your C program:
+
+```c
+#include "libft.h"
+```
+
+Then compile your program with the library:
+
+```bash
+cc main.c libft.a -o program
+./program
+```
+
+## What I Learned
+
+Libft was my first larger C project after the Piscine.
+
+It made me more comfortable with pointers, memory allocation, string manipulation, linked lists, header files, Makefiles, and organizing reusable code across multiple source files.
+
+## Tech
+
+C · Makefile · Static Libraries · UNIX
